@@ -12,7 +12,17 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
-  background: transparent;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  pointer-events: none;
 }
 
 body::before {
